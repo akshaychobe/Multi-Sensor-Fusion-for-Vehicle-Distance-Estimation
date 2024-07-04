@@ -39,8 +39,8 @@ The evaluation resulted in a **Mean Absolute Error (MAE)** of 5.49 meters and a 
 
 ## Code
 
-The code for this project is written in **Python** and is available in the [code.ipynb](code.ipynb) file.
+The code for this project is written in **Python** and is available in the code.ipynb file.
 
 ## Dataset
 
-The dataset used for this project consists of images, **LiDAR** and **RADAR** point cloud data, and ground truth 3D bounding box distances. The dataset is available in the [data/](data/) folder.
+The dataset used for this project consists of images, **LiDAR** and **RADAR** point cloud data, and ground truth 3D bounding box distances. The dataset is available for download at [KIT Sync and Share: Multi-Sensor Fusion Dataset](https://bwsyncandshare.kit.edu/s/2X3mnDQmaLkcqQn).
