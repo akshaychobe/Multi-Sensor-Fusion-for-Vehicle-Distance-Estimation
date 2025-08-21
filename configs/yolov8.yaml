@@ -1,0 +1,5 @@
+classes: [2, 5, 7]
+conf: 0.35
+iou: 0.50
+agnostic_nms: false
+max_det: 300

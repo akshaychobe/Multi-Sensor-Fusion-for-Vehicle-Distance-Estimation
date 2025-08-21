@@ -1,0 +1,27 @@
+dataset:
+  manifest: dataset_astyx_hires2019/interim/manifest.csv
+  split:    dataset_astyx_hires2019/interim/split.json
+
+detector:
+  model: yolov8x.pt
+  classes: [2, 5, 7]         # car, bus, truck
+  conf: 0.35
+  iou: 0.50
+  cache_labels_to: runs/dets
+
+projection:
+  undistort: true
+  drop_behind_cam: true
+
+filtering:
+  bbox_point_margin: 0
+  depth_axis: x              # forward axis in your camera frame
+  summary_stat: median
+
+fusion:
+  lidar_weight: 0.80
+  radar_weight: 0.20
+
+evaluation:
+  metric: [MAE, RMSE]
+  gt_depth_key: center3D_x   # adjust if your GT uses a different key
