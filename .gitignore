@@ -1,0 +1,37 @@
+# ==== DATASET BLOCKERS ====
+dataset_astyx_hires2019/**
+!dataset_astyx_hires2019/.gitkeep
+
+# Large/binary formats
+*.bin
+*.npy
+*.npz
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Python / env / IDE
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Experiment outputs
+runs/
+outputs/
+logs/
+models/
