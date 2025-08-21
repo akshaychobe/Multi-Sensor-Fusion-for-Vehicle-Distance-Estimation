@@ -1,4 +1,4 @@
-# Multi‑Sensor Fusion for Vehicle Distance Estimation (ASYX HiRes 2019)
+# Multi‑Sensor Fusion for Vehicle Distance Estimation (Astyx HiRes 2019)
 
 A reproducible, modular pipeline that estimates distances to road vehicles by combining **camera detections (YOLOv8)** with **LiDAR** and **RADAR** point clouds. The project targets the **ASYX HiRes 2019** dataset and includes dataset preparation, detection caching, 3D→2D projection, bounding‑box filtering, weighted sensor fusion, and MAE/RMSE evaluation.
 
